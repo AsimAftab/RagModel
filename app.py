@@ -29,7 +29,7 @@ from langchain_community.vectorstores import Chroma
 
 
 warnings.filterwarnings("ignore")
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAlSRMwkkHtlsNkZJHrdjXRvD4zJdOsLKI"
+os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 model2 = ChatGoogleGenerativeAI(model="gemini-1.0-pro-latest",
